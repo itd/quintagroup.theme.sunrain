@@ -1,7 +1,7 @@
 @media screen {
 
 /*---------- RESET ----------*/
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p,blockquote,th,td { 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,textarea,p,blockquote,th,td {
   margin:0;
   padding:0;
   }
@@ -9,7 +9,7 @@ table {
   border-collapse:collapse;
   border-spacing:0;
   }
-fieldset,img { 
+fieldset,img {
   border:0;
   }
 address,caption,cite,code,dfn,em,strong,th,var {
@@ -47,7 +47,7 @@ div.cell {
 }
 
 /*----- WIDTH CLASSES. -----*/
-/*----- For a given cell width -----*/ 
+/*----- For a given cell width -----*/
 div.width-1  { width:  5.3125% }
 div.width-2  { width: 11.625% }
 div.width-3  { width: 17.9375% }
@@ -65,7 +65,7 @@ div.width-14 { width: 87.375% }
 div.width-15 { width: 93.6875% }
 div.width-16 { width: 100% }
 
-/*----- Positioning classes -----*/ 
+/*----- Positioning classes -----*/
 div.position-0  { margin-left: -100% }
 div.position-1  { margin-left: -93.75% }
 div.position-2  { margin-left: -87.5%  }
@@ -83,7 +83,7 @@ div.position-13 { margin-left: -17.93% }
 div.position-14 { margin-left: -11.62% }
 div.position-15 { margin-left:  -5.31% }
 
-/* Convenience classes — ¼, ½, ¾ widths and ¼, ½, ¾ positions. 
+/* Convenience classes — ¼, ½, ¾ widths and ¼, ½, ¾ positions.
    Not strictly necessary. */
 div.width-1\3a 2 { width:    49.5% } /* .width-1:2 */
 div.width-1\3a 4 { width:    24.3% } /* .width-1:4 */
@@ -93,7 +93,7 @@ div.position-1\3a 2 {margin-left:    -49.45% } /* .position-1:2 */
 div.position-3\3a 4 {margin-left:    -24.25% } /* .position-3:4 */
 
 
-/* Special classes for ⅓, ⅔ widths and ⅓, ⅔ positions. 
+/* Special classes for ⅓, ⅔ widths and ⅓, ⅔ positions.
 These do not strictly conform to the grid, but are useful for certain layouts. */
 div.width-1\3a 3 { width: 32.66%; } /* .width-1:3 */
 div.width-2\3a 3 { width: 66.4%; } /* .width-2:3 */
@@ -266,14 +266,14 @@ h2, h3, h4, h5, h6 {
   margin:0 -1em;
   }
 #content .documentActions ul {
-  border-top:1px solid #ccd0d6;
+  border-top:1px solid #53B171;
   margin:2px 0 0;
   }
 #content .documentActions li {
   background:#e5e7eb;
   display:inline-block;
   margin:0 0 0 0.5em;
-  padding:0 17px 3px;  
+  padding:0 17px 3px;
   }
 .documentActions li a {
   color:#929aa6;
@@ -337,7 +337,7 @@ li.formTab a:hover {
 .visualClear {
   clear:both;
   }
-  
+
 /* Image alignment classes */
 .image-left {
   clear:left;
@@ -353,7 +353,7 @@ li.formTab a:hover {
   float:none;
   }
 .image-caption {
-  margin:0; 
+  margin:0;
   }
 .newsImageContainer {
   float:right;
@@ -419,7 +419,7 @@ div.field.error {
   margin:0 auto;
   width:1000px;
   }
-  
+
 /*---------- PORTAL TOP ----------*/
 #portal-top {
   border-top:3px solid #000;
@@ -429,7 +429,7 @@ div.field.error {
   min-height:104px;
   position:relative;
   }
-  
+
 /*---------- PORTAL SITEACTIONS ----------*/
 #portal-siteactions {
   background:url(../images/theme_rain/rain_sprite.png) no-repeat 0 -250px;
@@ -452,7 +452,7 @@ div.field.error {
 #portal-siteactions li a:hover {
   text-decoration:underline;
   }
-  
+
 /*---------- PORTAL SEARCHBOX ----------*/
 #portal-searchbox {
   position:absolute;
@@ -583,7 +583,7 @@ input.inputLabelActive {
 
 /*---------- LINGVO PLONE ----------*/
 #portal-languageselector {
-  background-color:#ccd0d6;
+  background-color:#53B171;
   float:right;
   font-size:11px;
   line-height:15px;
@@ -610,7 +610,7 @@ input.inputLabelActive {
 /*---------- GLOBAL NAVIGATION ----------*/
 #theme-globalnav {
   background-color:#f0f2f2;
-  border-top:3px solid #ff6046;
+  border-top:3px solid #968d2d;
   clear:both;
   padding:0 0 11px 0;
   white-space:normal;
@@ -633,13 +633,13 @@ input.inputLabelActive {
   }
 #theme-globalnav li.selected a,
 #theme-globalnav li:hover a {
-  background-color:#ff6046;
+  background-color:#968d2d;
   }
 #theme-globalnav:hover li.selected a {
   background-color:transparent;
   }
 #theme-globalnav:hover li:hover a {
-  background-color:#ff6046;
+  background-color:#968d2d;
   }
 .themeComment {
   left:-9999px;
@@ -656,7 +656,7 @@ input.inputLabelActive {
   -moz-border-radius:0 6px 6px 6px;
   -webkit-border-radius:0 6px 6px 6px;
   border-radius:0 6px 6px 6px;
-  background-color:#ff6046;
+  background-color:#968d2d;
   display:none;
   left:0;
   padding:5px 0 8px;
@@ -716,7 +716,7 @@ input.inputLabelActive {
   text-decoration:underline;
   }
 #portal-personaltools .actionMenuContent {
-  background-color:#ccd0d6;
+  background-color:#53B171;
   border:1px solid #332c34;
   padding:0;
   right:0;
@@ -825,7 +825,7 @@ input.inputLabelActive {
   color:#332c34;
   }
 .portletHeader {
-  background-color:#ccd0d6;
+  background-color:#53B171;
   font-size:1.5em;
   font-weight:normal;
   line-height:1.6em;
@@ -1015,7 +1015,7 @@ div.portletGreyItem a.portletLinkItem {
   background:transparent !important;
   }
 #portal-sitemap a:hover {
-  background-color:#ccd0d6 !important;
+  background-color:#53B171 !important;
   color:#332c34 !important;
   }
 
@@ -1027,7 +1027,7 @@ dl.portlet.portletCalendar a {
   text-decoration:none;
  }
 .ploneCalendar .weekdays th {
-  background-color:#ccd0d6;
+  background-color:#53B171;
   border-color:#888;
   border-style:solid none;
   border-width:1px;
@@ -1070,11 +1070,11 @@ dl.portlet.portletCalendar dd {
   width:100%;
   }
 .ploneCalendar .event {
-  background-color:#ccd0d6;
+  background-color:#53B171;
   font-weight:bold;
   }
 .ploneCalendar .todayevent {
-  background-color:#ccd0d6;
+  background-color:#53B171;
   border:2px solid #ffa500;
   font-weight:bold;
   }
@@ -1244,7 +1244,7 @@ dl.portlet.portletCalendar dd {
   padding: 2px 0;
   }
 #blog-listing .documentModified span {
-  padding:0 5px 0; 
+  padding:0 5px 0;
   }
 #blog-listing .documentAuthor a {
   color:#929aa6;
@@ -1290,7 +1290,7 @@ input.searchPage {
   font-size:150% !important;
   }
 form.searchPage input.searchButton {
-  background:#ccd0d6;
+  background:#53B171;
   border:0;
   color:#332c34;
   cursor:pointer;
@@ -1544,7 +1544,7 @@ h1 div.formControls input {
   text-decoration:none;
   }
 .actionMenu dt a {
-  padding:0 3px;  
+  padding:0 3px;
   }
 .arrowDownAlternative {
   font-size:80%;
@@ -2551,5 +2551,5 @@ dl.captioned {
   float:right;
   margin:0 0 0.5em 0.5em;
   }
-  
+
 }
