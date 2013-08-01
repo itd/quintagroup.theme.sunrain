@@ -52,7 +52,7 @@
         <before css:content="#portal-header > p.hiddenStructure:first-child" css:theme-children="#portal-header" />
 
         <!-- Logo -->
-        <replace css:content="#portal-logo" css:theme="#portal-logo" />
+        <!--<replace css:content="#portal-logo" css:theme="#portal-logo" />-->
 
         <!-- Portal Slogan -->
         <replace css:theme="#portal-slogan">
@@ -64,7 +64,7 @@
 
         <!-- Site actions -->
         <replace css:content="#portal-siteactions" css:theme="#portal-siteactions" method="raw" />
-        <drop css:content="#portal-siteactions" /> 
+        <drop css:content="#portal-siteactions" />
 
         <!-- Portal languageselector -->
         <replace css:content="#portal-languageselector" css:theme="#portal-languageselector" />
@@ -82,7 +82,7 @@
         <replace css:content="#portal-personaltools-wrapper" css:theme="#portal-personaltools-wrapper"/>
 
          <!-- Breadcrumbs -->
-        <drop css:content="#portal-breadcrumbs" /> 
+        <drop css:content="#portal-breadcrumbs" />
         <replace css:content="#portal-breadcrumbs" css:theme="#portal-breadcrumbs" method="raw"/>
 
         <after css:theme="#theme-globalnav" css:content="#portlets-in-header" />
@@ -92,7 +92,7 @@
         <strip css:content="#portal-column-content > div:not(#viewlet-above-content):not(#viewlet-below-content)" if-content="//div[@id='portal-column-content']/div/div[@id='content']" />
         <replace css:content="#portal-column-content" css:theme="#portal-column-content" />
         <drop css:content="img[alt='Image'][src$='image.png']" />
-        <drop css:content="img[alt='File'][src$='image.png']" /> 
+        <drop css:content="img[alt='File'][src$='image.png']" />
         <drop css:content="#plone-contentmenu-factories li a img" />
 
         <!-- Columns -->
